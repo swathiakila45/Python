@@ -30,6 +30,8 @@ scissors = '''
 ---.__(___)
 '''
 
+print()
+print()
 game_images=[rock,paper,scissors]
 
 userchoice=int(input("Enter your choice 1 for rock, 2 for paper and 3 for scissor\n"))

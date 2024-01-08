@@ -1,7 +1,8 @@
 #Day2 Challenge 
 
 #tip Calculator 
-
+print()
+print()
 print("Welcome to tip calculator!")
 bill=float(input("Enter the bill amount $ "))
 tip=int(input("How much tip would you like to give? 10, 12, or 15? "))
@@ -17,4 +18,4 @@ final_amount=round(bill_per_person,2)
 # to make sure we always get two decimal places 
 
 final_amount="{:.2f}".format(final_amount)
-print(f"Each person should pay: ${final_amount}")
+print(f"Each person should pay: ${final_amount}\n\n")

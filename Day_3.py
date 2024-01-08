@@ -1,3 +1,4 @@
+print("\n\n")
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -35,14 +36,14 @@ if direction=="left":
         door=input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose?\n")
         door=door.lower()
         if door=="red":
-            print("You are burned by fire. Game over!")
+            print("You are burned by fire. Game over!\n\n")
         elif door=="blue":
-            print("You are eaten by beasts. Game over!")
+            print("You are eaten by beasts. Game over!\n\n")
         elif door=="yellow":
-            print("You Win !!")
+            print("You Win !!\n\n")
         else:
-            print("Game over !!")
+            print("Game over !!\n\n")
     else:
-        print('Attacked by a trout.Game Over')
+        print('Attacked by a trout.Game Over\n\n')
 else:
-    print("You fall into a hole. Game Over!!")
+    print("You fall into a hole. Game Over!!\n\n")
